@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+<html>
 <div id="observablehq-3dffb919"></div>
 <script type="module">
 import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
@@ -5,3 +7,4 @@ import define from "https://api.observablehq.com/@ccharmd/ee-website-general.js?
 const inspect = Inspector.into("#observablehq-3dffb919");
 (new Runtime).module(define, name => name === "chart10" ? inspect() : undefined);
 </script>
+</html>
